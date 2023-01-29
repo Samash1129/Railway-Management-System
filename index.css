@@ -1,0 +1,395 @@
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+
+.temp2 {
+    height: 70%;
+}
+
+.bg {
+    position: relative;
+    filter: brightness(25%);
+}
+
+.bg img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    margin: -14px;
+    width: 101%;
+    background-color: rgba(164, 222, 237, 0.8);
+}
+
+.left {
+    display: flex;
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    position: relative;
+}
+
+.mid {
+    display: flex;
+    width: 43%;
+    position: relative;
+    left: 510px;
+    top: -23px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 38px;
+    top: 19px;
+}
+
+.left img {
+    width: 50px;
+    margin-left: 20px;
+    position: relative;
+    top: 31px;
+    left: 25px;
+}
+
+.left div {
+    position: relative;
+    top: 31px;
+    left: 25px;
+}
+
+.left div a {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 11px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    display: flex;
+    font-size: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #913939;
+    padding: 0px 37px;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #023047;
+}
+
+.btn {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: #219ebc;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background-color: #023047;
+}
+
+.container {
+    position: absolute;
+    top: 240px;
+    left: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    animation: fadein 2s;
+}
+
+.container h2 {
+    font-size: 55px;
+    margin-bottom: 1px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.cancelform {
+    display: flex;
+    position: absolute;
+    height: 240px;
+    top: 245px;
+    right: 37%;
+    background-color: rgba(164, 222, 237, 0.8);
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 35px rgb(56, 119, 179);
+    animation: fadein 1s;
+    border: 5px ridge rgb(56, 119, 179);
+}
+
+.cform {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.cform input,
+label,
+button {
+    padding: 1px 10px;
+    margin: 10px 15px;
+}
+
+.cform input {
+    height: 40px;
+    font-size: 22px;
+}
+
+.cform button {
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px auto
+}
+
+.trains {
+    position: absolute;
+    top: 190px;
+    right: 11%;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 35px rgb(56, 119, 179);
+}
+
+.trains,
+th,
+td {
+    border: 2px ridge rgb(56, 119, 179);
+    background-color: rgba(164, 222, 237, 0.4);
+    color: black;
+    font-size: 20px;
+    border-collapse: collapse;
+    border-width: 3px;
+    animation: fadein 1s;
+}
+
+.trains th {
+    height: 40px;
+    padding: 15px;
+}
+
+.trains td {
+    height: 45px;
+    text-align: center;
+}
+
+.bookform {
+    display: flex;
+    position: absolute;
+    height: 440px;
+    top: 160px;
+    right: 15%;
+    background-color: rgba(164, 222, 237, 0.8);
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 35px rgb(56 119 179);
+    animation: fadein 1s;
+    line-height: 40px;
+    width: 1065px;
+    border: 5px ridge rgb(56, 119, 179);
+}
+
+.bform {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    width: 440px;
+}
+
+.bform input,
+label,
+button {
+    padding: 1px 10px;
+    margin: 10px 15px;
+}
+
+.bform input {
+    height: 40px;
+    font-size: 22px;
+}
+
+.bform input[type='button'] {
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 14px auto;
+}
+
+.bform a {
+    text-decoration: none;
+    color: black;
+}
+
+.gen,
+.cat {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.bform input[type='button'] {
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 14px auto;
+}
+
+.gen input[type='radio'],
+.cat input[type='radio'] {
+    width: 15px;
+    height: 18px;
+    position: absolute;
+}
+
+.bform input[type='text'] {
+    margin-top: 0px;
+    padding-top: 0px;
+    /* width: 40px; */
+}
+
+.bform input[name='Name'] {
+    width: 230px;
+    position: absolute;
+    top: 46px;
+    right: 600px;
+    height: 26px;
+}
+
+.bform input[name='Age'] {
+    width: 230px;
+    position: absolute;
+    top: 105px;
+    right: 600px;
+    height: 26px;
+}
+
+.bform input[name='Address'] {
+    width: 230px;
+    position: absolute;
+    top: 232px;
+    right: 600px;
+    height: 26px;
+}
+
+.bform input[name='Source'] {
+    width: 230px;
+    position: absolute;
+    top: 295px;
+    right: 600px;
+    height: 26px;
+}
+
+.bform input[name='Destination'] {
+    width: 230px;
+    height: 26px;
+    position: absolute;
+    top: 46px;
+    right: 26px;
+}
+
+.bform input[type='date'] {
+    width: 230px;
+    position: absolute;
+    top: 104px;
+    right: 41px;
+    height: 25px;
+    margin: 0px;
+}
+
+.bform label[for='Date'] {
+    position: absolute;
+    top: 93px;
+    right: 406px;
+}
+
+.bform label[for='Trains'] {
+    position: absolute;
+    top: 152px;
+    right: 387px;
+}
+
+.bform label[for='Category'] {
+    position: absolute;
+    top: 212px;
+    right: 351px
+}
+
+.bform label[for='Destination'] {
+    position: absolute;
+    right: 325px;
+}
+
+.bform select {
+    position: absolute;
+    top: 169px;
+    right: 40px;
+    height: 30px;
+    font-size: 20px;
+    width: 254px;
+}
+
+.gen {
+    position: absolute;
+    top: 165px;
+    right: 600px;
+}
+
+.cat {
+    position: absolute;
+    top: 223px;
+    right: 25px;
+}
+
+.gen label,
+.cat label {
+    padding: 0px 15px;
+}
